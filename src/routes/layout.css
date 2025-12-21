@@ -5,15 +5,12 @@
 @variant dark (&:where(.dark, .dark *));
 
 @theme {
-	/* User-configured colors */
-	--color-primary-heading: var(--null);
-	--color-user-primary: var(--null);
+	/* Fonts */
+	--font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+	--font-serif: 'Instrument Serif', ui-serif, Georgia, serif;
 
-	/* User-configured fonts */
-	--font-heading: var(--null);
-	--font-body: var(--null);
-	--font-heading-weight: var(--null);
-	--font-body-weight: var(--null);
+	/* Primary color */
+	--color-primary: #859abb;
 
 	/* Background colors: bg-canvas, bg-canvas-subtle, bg-canvas-muted */
 	--color-canvas: var(--color-canvas-value);

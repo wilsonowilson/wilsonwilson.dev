@@ -3,6 +3,19 @@ export interface Post {
 	slug: string;
 	date: string;
 	description: string;
+	tags: string[];
+	image?: string;
+	external?: string;
+}
+
+interface PostMetadata {
+	title: string;
+	date: string;
+	description: string;
+	tags?: string[];
+	published?: boolean;
+	image?: string;
+	external?: string;
 }
 
 export async function getPosts(): Promise<Post[]> {
@@ -11,14 +24,21 @@ export async function getPosts(): Promise<Post[]> {
 	const posts: Post[] = [];
 
 	for (const path in modules) {
-		const module = modules[path] as { metadata: { title: string; date: string; description: string } };
+		const module = modules[path] as { metadata: PostMetadata };
+		const { metadata } = module;
+
+		if (metadata.published === false) continue;
+
 		const slug = path.replace('/content/posts/', '').replace('.md', '');
 
 		posts.push({
-			title: module.metadata.title,
+			title: metadata.title,
 			slug,
-			date: module.metadata.date,
-			description: module.metadata.description
+			date: metadata.date,
+			description: metadata.description || '',
+			tags: metadata.tags || [],
+			image: metadata.image,
+			external: metadata.external
 		});
 	}
 
