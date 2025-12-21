@@ -203,7 +203,7 @@ This extension would only be available in the file it lives in. You can also do 
 
 If you'd like to learn more about Dart extensions, be sure to look at the following resources.
 
-<Youtube videoid="D3j0OSfT9ZI" />
+<iframe class="w-full aspect-video my-6 rounded-lg" src="https://www.youtube.com/embed/D3j0OSfT9ZI" frameborder="0" allowfullscreen></iframe>
 
 - [Dart: Extension methods](https://dart.dev/guides/language/extension-methods) (Documentation)
 - [How do I use Dart extension Functions](https://stackoverflow.com/a/58288266).

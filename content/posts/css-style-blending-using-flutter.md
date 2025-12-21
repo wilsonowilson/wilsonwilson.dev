@@ -21,7 +21,7 @@ In CSS it's simple. All you have to do is use the [mix-blend-mode property](http
 
 > Spoiler alert! I managed to recreate it and you can check out the [source code](https://github.com/wilsonowilson/Flutter-Hover-Effects/blob/master/lib/demos/5-Cuberto/cuberto.dart). Unfortunately, the blend modes, as well as text border, don't work on the web, but it runs perfectly on every other platform. P.S - If you want to read about hover effects in Flutter, [check this out](https://wilsonwilson.dev/flutter-hover-effect-triggers-the-definitive-guide/).
 
-<Youtube videoid="prBZZOIFTvY" />
+<iframe class="w-full aspect-video my-6 rounded-lg" src="https://www.youtube.com/embed/prBZZOIFTvY" frameborder="0" allowfullscreen></iframe>
 
 If you would like to know how the blending is done, read on!
 

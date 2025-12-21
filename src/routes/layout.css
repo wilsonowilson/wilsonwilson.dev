@@ -73,3 +73,7 @@
 	--color-line-muted-value: #262626;
 	--color-line-subtle-value: #3d3d3d44;
 }
+
+body {
+	color: var(--color-fg);
+}

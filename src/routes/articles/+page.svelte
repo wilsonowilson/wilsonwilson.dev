@@ -24,13 +24,6 @@
 					{#if post.description}
 						<p class="mt-1 line-clamp-2 text-sm text-fg-secondary">{post.description}</p>
 					{/if}
-					{#if post.tags.length > 0}
-						<div class="mt-2 flex flex-wrap gap-2">
-							{#each post.tags as tag}
-								<span class="rounded bg-canvas-muted px-2 py-0.5 text-xs text-fg-muted">{tag}</span>
-							{/each}
-						</div>
-					{/if}
 				</a>
 			</li>
 		{/each}

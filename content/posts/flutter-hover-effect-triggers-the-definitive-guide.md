@@ -96,7 +96,7 @@ That is exactly how my [City Cards demo](https://github.com/wilsonowilson/Flutte
    },
 ```
 
-<Youtube videoid="ZCdpVqwUNo4" ></Youtube>
+<iframe class="w-full aspect-video my-6 rounded-lg" src="https://www.youtube.com/embed/ZCdpVqwUNo4" frameborder="0" allowfullscreen></iframe>
 
 ## Using the mouse position
 
@@ -212,7 +212,7 @@ There are many things you can do to make the animation look even better.
 
 For example, you can use the `AnimatedPositioned` widget to make it animate smoothly, as well as delay the animation, as seen in [this demo](https://github.com/wilsonowilson/Flutter-Hover-Effects/tree/master/lib/demos/4-Cursor-Blending):
 
-<Youtube videoid="dR3C0QUbeZY" ></Youtube>
+<iframe class="w-full aspect-video my-6 rounded-lg" src="https://www.youtube.com/embed/dR3C0QUbeZY" frameborder="0" allowfullscreen></iframe>
 
 Check out the [code](https://github.com/wilsonowilson/Flutter-Hover-Effects/tree/master/lib/demos/4-Cursor-Blending)!
 
@@ -259,6 +259,6 @@ The same can be applied to get the relative vertical position.
 
 I use this technique in [this demo](https://github.com/wilsonowilson/Flutter-Hover-Effects/tree/master/lib/demos/2-Perspective-Cards):
 
-<Youtube videoid="oel55zq8FVg" ></Youtube>
+<iframe class="w-full aspect-video my-6 rounded-lg" src="https://www.youtube.com/embed/oel55zq8FVg" frameborder="0" allowfullscreen></iframe>
 
 For more examples of hover effects, check out my [hover effect gallery](https://github.com/wilsonowilson/Flutter-Hover-Effects) on Github.

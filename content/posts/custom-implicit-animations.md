@@ -15,7 +15,7 @@ They make animating from one value to another _crazily_ simple, and even more fu
 
 Flutter's [implicit animation collection](https://flutter.dev/docs/development/ui/widgets/animation) contains almost everything developers need to animate their apps. Plus the tutorials and guides out there help beginners to become instant animation pros! (P.S Don't know what implicit animations are? Check out this video).
 
-<Youtube videoid="IVTjpW3W33s" ></Youtube>
+<iframe class="w-full aspect-video my-6 rounded-lg" src="https://www.youtube.com/embed/IVTjpW3W33s" frameborder="0" allowfullscreen></iframe>
 
 _But..._ at times, you may find yourself needing more.
 

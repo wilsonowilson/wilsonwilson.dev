@@ -15,23 +15,13 @@
 <article class="mt-8">
 	<header class="mb-8">
 		<h1 class="font-serif text-2xl font-bold text-fg">{data.metadata.title}</h1>
-		<div class="mt-2 flex items-center gap-3 text-sm text-fg-muted">
-			<time>
-				{new Date(data.metadata.date).toLocaleDateString('en-US', {
-					month: 'long',
-					day: 'numeric',
-					year: 'numeric'
-				})}
-			</time>
-			{#if data.metadata.tags?.length > 0}
-				<span>·</span>
-				<div class="flex gap-2">
-					{#each data.metadata.tags as tag}
-						<span class="rounded bg-canvas-muted px-2 py-0.5 text-xs">{tag}</span>
-					{/each}
-				</div>
-			{/if}
-		</div>
+		<time class="mt-2 block text-sm text-fg-muted">
+			{new Date(data.metadata.date).toLocaleDateString('en-US', {
+				month: 'long',
+				day: 'numeric',
+				year: 'numeric'
+			})}
+		</time>
 	</header>
 
 	<div

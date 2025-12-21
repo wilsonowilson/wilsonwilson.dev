@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.ico';
 	import './layout.css';
 
 	let { children } = $props();
@@ -11,7 +11,7 @@
 </svelte:head>
 
 <div class="min-h-screen bg-canvas px-4">
-	<main class="mx-auto max-w-176 border-x border-line-subtle bg-canvas pb-12">
+	<main class="mx-auto min-h-screen max-w-176 border-x border-line-subtle bg-canvas pb-12">
 		<!-- Header Image -->
 		<div class="relative">
 			<img
