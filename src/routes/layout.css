@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+	/* User-configured colors */
+	--color-primary-heading: var(--null);
+	--color-user-primary: var(--null);
+
+	/* User-configured fonts */
+	--font-heading: var(--null);
+	--font-body: var(--null);
+	--font-heading-weight: var(--null);
+	--font-body-weight: var(--null);
+
+	/* Background colors: bg-canvas, bg-canvas-subtle, bg-canvas-muted */
+	--color-canvas: var(--color-canvas-value);
+	--color-canvas-subtle: var(--color-canvas-subtle-value);
+	--color-canvas-muted: var(--color-canvas-muted-value);
+
+	/* Surface colors: bg-surface, bg-surface-raised, bg-surface-overlay */
+	--color-surface: var(--color-surface-value);
+	--color-surface-raised: var(--color-surface-raised-value);
+	--color-surface-overlay: var(--color-surface-overlay-value);
+
+	/* Foreground/text colors: text-fg, text-fg-secondary, text-fg-muted, text-fg-inverted */
+	--color-fg: var(--color-fg-value);
+	--color-fg-secondary: var(--color-fg-secondary-value);
+	--color-fg-muted: var(--color-fg-muted-value);
+	--color-fg-inverted: var(--color-fg-inverted-value);
+
+	/* Border colors: border-line, border-line-muted, border-line-subtle */
+	--color-line: var(--color-line-value);
+	--color-line-muted: var(--color-line-muted-value);
+	--color-line-subtle: var(--color-line-subtle-value);
+}
+
+:root {
+	/* Light mode (stone palette) */
+	--color-canvas-value: #ffffff;
+	--color-canvas-subtle-value: #fcfcfb;
+	--color-canvas-muted-value: #f5f5f4;
+
+	--color-surface-value: #ffffff;
+	--color-surface-raised-value: #f5f5f5;
+	--color-surface-overlay-value: #ffffff;
+
+	--color-fg-value: #1c1917;
+	--color-fg-secondary-value: #57534e;
+	--color-fg-muted-value: #a8a29e;
+	--color-fg-inverted-value: #ffffff;
+
+	--color-line-value: #e7e5e4;
+	--color-line-muted-value: #eeeceb;
+	--color-line-subtle-value: #f5f5f4;
+}
+
+.dark {
+	/* Dark mode (neutral palette) */
+	--color-canvas-value: #141414;
+	--color-canvas-subtle-value: #171717;
+	--color-canvas-muted-value: #262626;
+
+	--color-surface-value: #1a1a1a;
+	--color-surface-raised-value: #262626;
+	--color-surface-overlay-value: #3d3d3d;
+
+	--color-fg-value: #e5e5e5;
+	--color-fg-secondary-value: #a3a3a3;
+	--color-fg-muted-value: #737373;
+	--color-fg-inverted-value: #171717;
+
+	--color-line-value: #3d3d3d;
+	--color-line-muted-value: #262626;
+	--color-line-subtle-value: #3d3d3d44;
+}
