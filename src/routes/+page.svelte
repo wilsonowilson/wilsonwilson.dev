@@ -20,7 +20,7 @@
 			>Senja</a
 		>. A testimonial collection tool that makes collecting, managing and sharing testimonials easy.
 		I built it alongside my cofounder
-		<a href="https://twitter.com/ollygaspar" class="text-primary hover:underline">Olly</a> over 3.5 years
+		<a href="https://x.com/helloitsolly" class="text-primary hover:underline">Olly</a> over 3.5 years
 		(currently at $1M+ ARR).
 	</p>
 </div>
