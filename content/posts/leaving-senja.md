@@ -1,6 +1,6 @@
 ---
 title: I'm leaving Senja
-date: 2024-12-21
+date: 2025-05-14
 description: After 3.5 years and $800K ARR, I'm stepping down from Senja to start a new chapter.
 published: true
 tags:
